@@ -1,0 +1,50 @@
+sem_line_style: 'sem_line_style.yaml'
+beachface_plot: False
+beachberm_plot: False
+
+dx: 200
+cell_annotation: True
+transect_plot: True
+transect_color: 'green'
+transect_length: 2000
+
+nearshore_depth: 10
+K: 0.39
+
+
+validation_filename: False
+
+ 
+opt_baseline:
+    filename: 'SEM\baseline.shp'
+    shp_plot: True
+    x_plot: True
+    xc_plot: True
+
+opt_coastline:
+    filename: 'SEM\aguda.shp' 
+    shp_plot: False
+    x_plot: False
+    xc_plot: True
+ 
+opt_shoreline:
+    xc_plot: True
+    xc_color: 'blue'
+    
+opt_beach_toe:
+    filename: 'SEM\aguda_shore.shp'
+    shp_plot: True
+    xc_plot: True
+    xc_color: 'black'
+
+opt_nearshore_contour:
+    filename: 'SEM\aguda_shore.shp'
+    shp_plot: False
+    xc_plot: True
+    xc_color: 'black'
+
+
+
+lineDir: False  # display line direction
+
+

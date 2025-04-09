@@ -1,0 +1,75 @@
+sem_line_style: 'sem_line_style.yaml'
+beachface_plot: False
+beachberm_plot: False
+
+dx: 300
+cell_annotation: True
+transect_plot: True
+transect_color: 'green'
+transect_length: 2000
+
+beach_profile_yaml: 'beach_profile.yaml'
+
+nearshore_depth: 10
+K: 0.39
+rho: 1025
+rho_sed: 2750
+porosity: 0.4
+g: 9.81
+
+Q_method: 'AM'
+k1: 0.4
+gama: 0.78
+
+
+        
+boundary: 
+    left: 'closed'
+    right: 'closed'
+
+validation_filename: False
+
+ 
+opt_baseline:
+    filename: 'D:\Personal\OneDrive - Universidade de Lisboa\Ferramentas\SEM_PLAT\SEM_GIS\Shps_modelo\baseline.shp'
+    shp_plot: True
+    x_plot: True
+    xc_plot: True
+    xc_color: 'black'
+
+
+opt_coastline:
+    filename: 'D:\Personal\OneDrive - Universidade de Lisboa\Ferramentas\SEM_PLAT\SEM_GIS\Shps_modelo\coastline.shp' 
+    shp_plot: False
+    shp_plot_color: [0.72941176, 0.56862745, 0.48627451]
+    
+    x_plot: False
+    xc_plot: True
+    xc_color: [0.72941176, 0.56862745, 0.48627451]
+ 
+opt_shoreline:
+    xc_plot: True
+    xc_color: [0.08235294, 0.37647059, 0.50980392]
+    filename: 'D:\Personal\OneDrive - Universidade de Lisboa\Ferramentas\SEM_PLAT\SEM_GIS\Shps_modelo\Shoreline_start.shp' 
+    shp_plot: False
+    shp_plot_color: [0.08235294, 0.37647059, 0.50980392]
+    x_plot: False
+    
+opt_beach_toe:
+    filename: 'D:\Personal\OneDrive - Universidade de Lisboa\Ferramentas\SEM_PLAT\SEM_GIS\Shps_modelo\Shoreline_start.shp'
+    xc_plot: True
+    xc_color: [0.75, 0, 0]
+
+opt_nearshore_contour:
+    filename: 'D:\Personal\OneDrive - Universidade de Lisboa\Ferramentas\SEM_PLAT\SEM_GIS\Shps_modelo\Shoreline_start.shp'
+    shp_plot: False
+    xc_plot: True
+    xc_color: 'black'
+
+
+
+lineDir: False  # display line direction
+
+
+dt_next_step: 10000
+dt: 100

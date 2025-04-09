@@ -1,0 +1,26 @@
+
+
+shp_plot: False
+shp_color: 'black'
+shp_markersize: 0
+shp_marker: 'o'
+shp_linestyle: '--'
+shp_linewidth: 0.5
+shp_markeredgecolor: 'black'
+
+xc_plot: False
+xc_color: 'blue'
+xc_markersize: 1
+xc_marker: 'o'
+xc_linestyle: '-'
+xc_linewidth: 1
+xc_markeredgecolor: 'red'
+
+x_plot: False
+x_color: 'blue'
+x_markersize: 3
+x_marker: '+'
+x_linestyle: '-'
+x_linewidth: 1
+x_markeredgecolor: 'black'
+

@@ -1,0 +1,30 @@
+y_resolution: 1
+
+domain_bounds:
+    z_max: 10
+    z_min: -10
+    y_min: -10
+    y_max: 100
+
+view_bounds:
+    z_max: 10
+    z_min: -8
+    y_min: -10
+    y_max: 100
+
+platform_slope: 0.05
+cliff_height: 5
+platform_z_coastline: -2
+
+
+sand_color: [0.7, 0.7, 0.5]
+platform_color: [0.3, 0.3, 0.3]
+    
+# beach parameters
+dean_parameter: 0.1
+beach_face_slope: 0.1
+berm_with: 10
+berm_slope : 0
+closure_depth: 10
+
+z_coastline: 2

@@ -1,0 +1,74 @@
+sem_line_style: 'sem_line_style.yaml'
+beachface_plot: True
+beachberm_plot: False
+
+dx: 100
+cell_annotation: True
+transect_plot: True
+transect_color: 'green'
+transect_length: 1000
+
+beach_profile_yaml: 'beach_profile_plat.yaml'
+
+nearshore_depth: 10
+K: 0.39
+rho: 1025
+rho_sed: 2750
+porosity: 0.4
+g: 9.81
+
+Q_method: 'AM'
+k1: 0.4
+gama: 0.78
+
+dt_next_step: 10000
+dt: 10
+ 
+boundary: 
+    left: 'gated'
+    right: 'gated'
+
+validation_filename: False
+
+ 
+opt_baseline:
+    filename: 'embayed\baseline.shp'
+    shp_plot: True
+    x_plot: True
+    xc_plot: True
+    xc_color: 'black'
+
+
+opt_coastline:
+    filename: 'embayed\coastline.shp' 
+    shp_plot: False
+    shp_plot_color: [0.72941176, 0.56862745, 0.48627451]
+    
+    x_plot: False
+    xc_plot: True
+    xc_color: [0.72941176, 0.56862745, 0.48627451]
+ 
+opt_shoreline:
+    xc_plot: True
+    xc_color: [0.08235294, 0.37647059, 0.50980392]
+    filename: 'embayed\shoreline.shp' 
+    shp_plot: False
+    shp_plot_color: [0.08235294, 0.37647059, 0.50980392]
+    x_plot: False
+    
+opt_beach_toe:
+    filename: 'embayed\shoreline.shp'
+    xc_plot: True
+    xc_color: [0.75, 0, 0]
+
+opt_nearshore_contour:
+    filename: 'SEM_GIS\Shps_modelo\Shoreline_start.shp'
+    shp_plot: False
+    xc_plot: True
+    xc_color: 'black'
+
+
+
+lineDir: False  # display line direction
+
+
